@@ -65,8 +65,8 @@
         <h2>系统要求</h2>
         <div class="card">
           <ul>
-            <li>iOS / iPadOS：建议 iOS 15 或更高版本。</li>
-            <li>权限：照片/文件读写（仅用于本地合并与保存）。</li>
+            <li>iOS / iPadOS：建议 iOS 16.6 或更高版本。</li>
+            <li>权限：照片读写（仅用于本地合并与保存）。</li>
           </ul>
         </div>
       </section>
@@ -74,8 +74,10 @@
       <section>
         <h2>常见问题（FAQ）</h2>
         <h3>1) 如何获得近乎无损的结果？</h3>
-        <p>避免反复重新导出；必要时开启「可选的精确压缩」并设置充足的目标大小。</p>
-
+          <ul>
+            <li>不要反复多次合并同一批图片。</li>
+            <li>在导出时关闭压缩。</li>
+          </ul>
         <h3>2) 精确压缩后文件大小与目标值不完全一致？</h3>
         <p>由于图像内容与编码器特性，实际结果会围绕目标值微调（±若干 KB）。如需绝对保守，可稍微提高目标值。</p>
 
@@ -127,7 +129,10 @@
       <section>
         <h2>FAQ</h2>
         <h3>1) How to achieve near-lossless results?</h3>
-        <p>Avoid repeated re-encoding; when needed, enable “optional precise compression” with a sufficiently high target size.</p>
+          <ul>
+            <li>Do not merge the same set of images repeatedly.</li>
+            <li>Disable compression when exporting.</li>
+          </ul>
 
         <h3>2) Final size slightly differs from the target?</h3>
         <p>Due to image content and encoder behavior, the result converges around the target (± a few KB). Set a slightly higher target if required.</p>
